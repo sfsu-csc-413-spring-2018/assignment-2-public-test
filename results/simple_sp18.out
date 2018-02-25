@@ -1,0 +1,14 @@
+READLINE:   program { number n
+program     left: 0        right: 6        line: 1        Program
+{           left: 8        right: 8        line: 1        LeftBrace
+number      left: 10       right: 15       line: 1        Number
+n           left: 17       right: 17       line: 1        Identifier
+READLINE:     n = 1.2
+n           left: 2        right: 2        line: 2        Identifier
+=           left: 4        right: 4        line: 2        Assign
+1.2         left: 6        right: 8        line: 2        NumberLit
+READLINE:   }
+}           left: 0        right: 0        line: 3        RightBrace
+  1: program { number n
+  2:   n = 1.2
+  3: }
